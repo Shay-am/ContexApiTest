@@ -1,0 +1,22 @@
+.heading {
+    position: relative;
+    z-index: 10;
+}
+.addons {
+    position: relative;
+    z-index: 20;
+}
+
+.modalSideBar {
+    position: fixed;
+    background-color: black;
+    opacity: 0.2;
+    top: 0;
+    width: 100vw;
+    height: 120vh;
+    z-index: 1;
+
+    h2 {
+        position: relative;
+    }
+}
